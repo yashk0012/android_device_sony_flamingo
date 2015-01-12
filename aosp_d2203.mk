@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     device/sony/flamingo/rootdir/fstab.yukon:root/fstab.yukon
 
 # Product attributes
-PRODUCT_NAME := aosp_d2203
+PRODUCT_NAME := aosp_d2202
 PRODUCT_DEVICE := flamingo
 PRODUCT_MODEL := Xperia E3 (AOSP)
 PRODUCT_BRAND := Sony
