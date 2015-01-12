@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_d2203-userdebug
+add_lunch_combo aosp_d2202-userdebug
 add_lunch_combo cm_flamingo-userdebug
