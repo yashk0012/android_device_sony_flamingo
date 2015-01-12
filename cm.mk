@@ -22,13 +22,13 @@ TARGET_KERNEL_SOURCE := kernel/sony
 TARGET_KERNEL_CONFIG := aosp_yukon_flamingo_defconfig
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D2203,flamingo
+TARGET_OTA_ASSERT_DEVICE := D2202,flamingo
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/sony/flamingo/rootdir/fstab.yukon
 
 # Inherit from flamingo device
-$(call inherit-product, device/sony/flamingo/aosp_d2203.mk)
+$(call inherit-product, device/sony/flamingo/aosp_d2202.mk)
 
 # Inherit from common resources
 $(call inherit-product, device/sony/common/resources.mk)
@@ -37,9 +37,9 @@ $(call inherit-product, device/sony/common/resources.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=D2203 \
-    BUILD_FINGERPRINT=Sony/D2203/D2203:4.4.2/18.4.C.1.29/4nv_bQ:user/release-keys \
-    PRIVATE_BUILD_DESC="D2203-user 4.4.2 18.4.C.1.29 4nv_bQ release-keys"
+    PRODUCT_NAME=D2202 \
+    BUILD_FINGERPRINT=Sony/D2202/D2202:4.4.2/18.4.A.2.13/4nv_bQ:user/release-keys \
+    PRIVATE_BUILD_DESC="D2202-user 4.4.2 18.4.A.2.13 4nv_bQ release-keys"
 
 PRODUCT_NAME := cm_flamingo
 PRODUCT_DEVICE := flamingo
